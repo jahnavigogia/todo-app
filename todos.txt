@@ -1,11 +1,12 @@
 hi
-work
-buy clothes
+hello
+sow seeds
 sleep
 cook
-study
+food
 study
 edit code
 work
 add
 sleep
+hi
