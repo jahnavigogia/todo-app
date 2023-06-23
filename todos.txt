@@ -1,8 +1,9 @@
 hills
 hike
 help
-run
-drink
+wash clothes
+what
+hello
 cook
 food
 study
@@ -11,3 +12,6 @@ work
 add
 sleep
 hills
+run
+drink
+
