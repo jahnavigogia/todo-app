@@ -1,17 +1,8 @@
-hills
-hike
 help
 wash clothes
-what
-hello
+win
 cook
 food
 study
-edit code
-work
-add
-sleep
-hills
-run
-drink
-
+go
+hi
