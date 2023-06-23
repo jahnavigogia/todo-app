@@ -1,6 +1,8 @@
 import functions
+import time
 import PySimpleGUI as sg
 
+clock = sg.Text('', key='clock')
 label = sg.Text("Enter a To-Do")
 input_box = sg.InputText(tooltip="Enter To-Do", key='todo')
 add_button = sg.Button("Add")
@@ -10,13 +12,14 @@ edit_button = sg.Button("Edit")
 exit_button = sg.Button("Exit")
 complete_button = sg.Button("Complete")
 window = sg.Window("My to-do App",
-                   layout=[[label],
+                   layout=[[clock], [label],
                            [input_box, add_button],
                            [list_box, edit_button, complete_button],
                            [exit_button]],
                            font=("Helvetica", 20))
 while True:
     event, values = window.read(timeout=200)
+    window['clock'].update(value=time.strftime("%b %d, %Y, %H:%M:%S"))
     match event:
         case "Add":
             todos = functions.get_todos()
