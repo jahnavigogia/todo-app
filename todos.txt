@@ -1,8 +1,9 @@
 help
 wash clothes
 win
-cook
 food
+swing
 study
-go
 hi
+watch
+

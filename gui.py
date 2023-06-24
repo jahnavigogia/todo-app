@@ -2,6 +2,7 @@ import functions
 import time
 import PySimpleGUI as sg
 
+sg.theme("LightBlue2")
 clock = sg.Text('', key='clock')
 label = sg.Text("Enter a To-Do")
 input_box = sg.InputText(tooltip="Enter To-Do", key='todo')
